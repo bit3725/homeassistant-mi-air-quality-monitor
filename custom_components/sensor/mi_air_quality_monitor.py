@@ -7,7 +7,7 @@ from homeassistant.exceptions import PlatformNotReady
 
 _LOGGER = logging.getLogger(__name__)
 
-REQUIREMENTS = ['python-miio==0.3.2']
+REQUIREMENTS = ['python-miio>=0.3.2']
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
     """Perform the setup for Xiaomi air quality monitor."""
